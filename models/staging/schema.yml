@@ -9,6 +9,13 @@ sources:
         - name: green_tripdata
         - name: yellow_tripdata
 
+    - name: staging_fhv
+      database: de-zoomcamp-338919
+      schema: trips_fhv_data_all
+
+      tables:
+        - name: fhv_data
+
 models:
     - name: stg_green_tripdata
       description: >
